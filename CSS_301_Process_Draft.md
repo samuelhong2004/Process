@@ -29,19 +29,8 @@ Choose projects that force you to compare parts, validate assumptions, and revis
 
 ## Figure 1. Component Engineer I Preparation Roadmap
 
-```text
-Coursework Foundation
-        ↓
-Datasheet and Specification Fluency
-        ↓
-Component Tradeoff Evaluation
-        ↓
-Documentation and Traceability
-        ↓
-Project Validation and Revision
-        ↓
-Application Readiness for Component Engineer I
-
-
-A few of the ideas in that draft are grounded in the assignment page and in current component-selection sources: the assignment specifically asks for best practices rather than tutorials, and current component-engineering material emphasizes justified selection, traceability, validation, and lifecycle or obsolescence awareness. :contentReference[oaicite:1]{index=1}
-
+## References
+[^1]: Crane Company, “Component Engineer I-III,” MyWorkDayJobs.com. [Online]. Available: https://cranecompany.wd5.myworkdayjobs.com/en-US/Careers/job/Component-Engineer-III_JR100555. [Accessed: Apr. 15, 2026].
+[^2]: J. Sartin, “Beyond the BOM: Proactive Component Selection,” Altium Resources, Apr. 22, 2025. [Online]. Available: https://resources.altium.com/p/proactive-component-selection. [Accessed: Apr. 15, 2026].
+[^3]: T. Swallow, “Design Verification Made Simple: How to Validate Your Component Choices Before Prototyping,” Altium Resources, Sep. 23, 2025. [Online]. Available: https://resources.altium.com/p/how-to-validate-component-choices-before-prototyping. [Accessed: Apr. 15, 2026].
+[^4]: “How to Manage Electronic Component Obsolescence,” Altium Resources, Oct. 7, 2024. [Online]. Available: https://resources.altium.com/p/managing-electronic-component-obsolescence-practical-insights-engineering-managers. [Accessed: Apr. 15, 2026].
