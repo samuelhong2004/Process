@@ -29,7 +29,7 @@ Keep short, organized records of why you selected a component, which specificati
 Choose projects that force you to compare parts, validate assumptions, and revise choices when components fail, drift, overheat, or create integration problems. Projects become far more valuable when they show that you can move from theory to evidence. A recruiter can learn more from a project where you justified a MOSFET, connector, capacitor, or sensor choice and then verified the result than from a project that only proves you assembled a circuit. The strongest preparation comes from work that demonstrates part selection, testing, iteration, and communication together, because those activities reflect the real structure of component engineering work.[^1][^2]
 
 ## Figure 1. Component Engineer I Preparation Roadmap
-![Component engineer roadmap](https://www.canva.com/design/DAHG-cvzRlA/pzGHTRA75is9Ok2-fOt4bw/view?utm_content=DAHG-cvzRlA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hbee3682d8b)
+![Component engineer roadmap](https://github.com/samuelhong2004/Process/blob/main/Component%20Engineer%20RoadMap.png)
 
 ## References
 [^1]: Crane Company, “Component Engineer I-III,” MyWorkDayJobs.com. [Online]. Available: https://cranecompany.wd5.myworkdayjobs.com/en-US/Careers/job/Component-Engineer-III_JR100555. [Accessed: Apr. 15, 2026].
