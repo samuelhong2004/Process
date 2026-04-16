@@ -1,5 +1,6 @@
 # Graduation Learning Plan for a Future Component Engineer I
-
+Prepared for: Advising Group
+Prepared by: Samuel Hong
 ## Table of Contents
 - [Purpose](#purpose)
 - [Best Practices for Building Component Engineering Readiness](#best-practices-for-building-component-engineering-readiness)
