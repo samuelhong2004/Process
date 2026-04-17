@@ -29,7 +29,7 @@ Documenting short and concise list of components you selected that has informati
 Choosing any project that will translate ideal and theoretical schematics and concepts to an actual real-world circuit, like PCBs, will force you to make careful choices regarding components' parameters. Making hasty choices can risk the components to overheat, fail, or cause integration problems. This kind of experience will stand out to recruiters, due to your justification of choosing various components like MOSFETs, capacitors, sensors. This will prove even more that you assembled the circuit with detailed process. For a component engineer, the signficant part of doing your projects is when you're demonstrating part selection, testing, iteration, and documentation. [^1][^2]
 
 ## Figure 1. Component Engineer I Preparation Roadmap
-![Component engineer roadmap](https://github.com/samuelhong2004/Process/blob/main/Component%20Engineer%20I%20RoadMap.png)
+![Component engineer roadmap](https://raw.githubusercontent.com/samuelhong2004/Process/main/Component%20Engineer%20Preparation%20RoadMap.png)
 
 ## References
 [^1]: Crane Company, “Component Engineer I-III,” MyWorkDayJobs.com. [Online]. Available: https://cranecompany.wd5.myworkdayjobs.com/en-US/Careers/job/Component-Engineer-III_JR100555. [Accessed: Apr. 15, 2026].
