@@ -59,7 +59,7 @@ Ask a professor specialized in RF, and he recommends you doing a project where y
 [^1][^2]
 
 ## Figure 1. Component Engineer I Preparation Roadmap
-![Component engineer roadmap](https://raw.githubusercontent.com/samuelhong2004/Process/blob/main/Component%20Selection%20Workflow.png)
+![Component engineer roadmap](https://raw.githubusercontent.com/samuelhong2004/Process/main/Component%20Selection%20Workflow.png)
 
 ## References
 [^1]: Crane Company, “Component Engineer I-III,” MyWorkDayJobs.com. [Online]. Available: https://cranecompany.wd5.myworkdayjobs.com/en-US/Careers/job/Component-Engineer-III_JR100555. [Accessed: Apr. 15, 2026].
