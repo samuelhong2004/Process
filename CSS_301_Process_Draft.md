@@ -12,12 +12,19 @@ Prepared by: Samuel Hong
 - [References](#references)
 
 ## Purpose
-This document will explain the best practices that will prepare you for a Component Engineer I role by the time you graduate. It focuses on habits and experiences that make you prepared rather than just relying on coursework alone. Instead of basic advices that most electrical engineers hear, it distinguishes the patterns of preparation that matches more with a component engineer role. If you follow these practices consistently, you graduate with stronger knowledge which includes evaluating parts, justifying decisions on component choices, and communicating those decisions clearly. 
+This document is written for electrical engineering students who are interested in becoming stronger candidates for component engineering or hardware engineering and will explain the best practices that will prepare you for a Component Engineer I role by the time you graduate. It focuses on habits and experiences that make you prepared rather than just relying on coursework alone. Instead of basic advices that most electrical engineers hear, it distinguishes the patterns of preparation that matches more with a component engineer role. If you follow these practices consistently, you graduate with stronger knowledge which includes evaluating parts, justifying decisions on component choices, and communicating those decisions clearly. 
 
 ## Best Practices for Building Component Engineering Readiness
 
 ### Build Strong Datasheet Judgment
-Repeated practice with datasheets, electrical parameters' limits, tolerances, and physical dimensions must be prioritized as a component engineer, because component engineering depends more on decisions that are technically defensible rather than convenient. Treating part selection as a quick look up task is not practical and shows weak judgment. That approach may get by on class assignments, but it will definitely not prepare you for a role where you're responsible for choosing and documenting components for the designs. Poor choice may affect reliability, manufacturability, or future availability, which can cause company's time and money. A stronger practice is reading component datasheets with a mindset that each specification that you choose incorrectly has consequences for performance, sourcing, and testing.[^1][^2]
+**Why this matters:**  
+Datasheets contain the limits, assumptions, and operating conditions that determine whether a component will actually work in a real system. Choosing a part based only on one headline rating can lead to problems with reliability, heat, cost, or availability.
+
+**What to do:**  
+When reviewing a component, compare the absolute maximum ratings, recommended operating conditions, thermal limits, package type, tolerance, and availability. Then report why the part is acceptable for the specific circuit or system.
+
+**Example:**  
+For a MOSFET, do not only check the voltage and current rating. Also check RDS(on), gate charge, thermal resistance, package size, and whether the part is available from multiple suppliers.[^1][^2]
 
 ### Connect Coursework to Real Component Decisions
 Use the circuit concepts and lab courses as leverage to explain why one component is better choice than another under realistic judgment. A better practice is to not just finish calculations on ideal conditions, but to connect those calculations to an actual realistic engineering conditions. When framing your coursework around voltage stress, thermal margins, tolerances, or compliance needs, you turn class knowledge into decision-making evidence. That's important because component engineering roles rely on more than concepts and theories; they require you to take account into technical requirements and match them to practical part choices that will work efficiently in real systems.[^1][^3]
