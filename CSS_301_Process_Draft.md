@@ -18,22 +18,45 @@ This document is written for electrical engineering students who are interested 
 
 ### Build Strong Datasheet Judgment
 **Why this matters:**  
-Datasheets contain the limits, assumptions, and operating conditions that determine whether a component will actually work in a real system. Choosing a part based only on one headline rating can lead to problems with reliability, heat, cost, or availability.
+Datasheets contain the limits, assumptions, and operating conditions that determine whether a component will actually work in a real system. Choosing a part based only on one rating can lead to problems such as reliability, thermal, cost, or availability.
 
 **What to do:**  
 When reviewing a component, compare the absolute maximum ratings, recommended operating conditions, thermal limits, package type, tolerance, and availability. Then report why the part is acceptable for the specific circuit or system.
 
 **Example:**  
-For a MOSFET, do not only check the voltage and current rating. Also check RDS(on), gate charge, thermal resistance, package size, and whether the part is available from multiple suppliers.[^1][^2]
+When checking a MOSFET for a high switching application, do not only check the voltage and current rating. Also check RDS(on), gate charge, thermal resistance, package size, and whether the part is available from multiple suppliers.[^1][^2]
 
 ### Connect Coursework to Real Component Decisions
-Use the circuit concepts and lab courses as leverage to explain why one component is better choice than another under realistic judgment. A better practice is to not just finish calculations on ideal conditions, but to connect those calculations to an actual realistic engineering conditions. When framing your coursework around voltage stress, thermal margins, tolerances, or compliance needs, you turn class knowledge into decision-making evidence. That's important because component engineering roles rely on more than concepts and theories; they require you to take account into technical requirements and match them to practical part choices that will work efficiently in real systems.[^1][^3]
+**Why this matters:**  
+Electrical engineering coursework gives you the background needed to understand why certain components are selected. Various EE courses including electives like power electronics, EMI, circuit theory can help you explain voltage ratings, current limits, power loss, signal behavior, and reliability concerns.
+
+**What to do:**  
+Use what you learned from the courses to justify component choices in projects. When you choose a resistor, capacitor, diode, transistor, connector, or IC, explain which course concept supports that decision.
+
+**Example:**  
+In an electronics or power electronics project, use circuit analysis to calculate expected current, voltage, and power dissipation. Then use those values to choose a component with appropriate ratings to narrow down the exact components you can choose for your circuit.[^1][^3]
 
 ### Develop Documentation and Traceability Habits
-Documenting short and concise list of components you selected that has information such as component parameters, description of why you chose this specific component, any alternatives considered, and what trade-offs you accepted. This practice is important due to working with other engineers that are either not focusing on component selection or introduced to a project later which enables them to catch up. This is important besides engineers like quality personnel and sourcing teams, so professional documentation is something that is taken seriously. Besides documenting for someone else, it will benefit you because there can be a time when there are design changes, a part becoming obselete, or disagreements among team members on why this component is not suitable for this design.[^2][^4]
+**Why this matters**
+Documenting short and concise list of components you selected that has information such as component parameters, description of why you chose this specific component, any alternatives considered, and what trade-offs you accepted is important due to working with other engineers that are either not focusing on component selection or introduced to a project later which enables them to catch up. 
+
+**What to do**
+After choosing the appropriate components for your circuit, make a excel sheet and list the components' manufacturer, voltage and current ratings, quantity, and more information needed. 
+
+**Example:**
+After finding a diode that is necessary for the buck-converter you're working on, list the diode's information into the excel sheet. The manufacturer is Infineon, the voltage rating is 30 V and current rating is 1 A, and you need to buy three. The extra 2 are bought in case one gets broken. 
+[^2][^4]
 
 ### Use Projects to Prove Selection and Validation Skills
-Choosing any project that will translate ideal and theoretical schematics and concepts to an actual real-world circuit, like PCBs, will force you to make careful choices regarding components' parameters. Making hasty choices can risk the components to overheat, fail, or cause integration problems. This kind of experience will stand out to recruiters, due to your justification of choosing various components like MOSFETs, capacitors, sensors. This will prove even more that you assembled the circuit with detailed process. For a component engineer, the signficant part of doing your projects is when you're demonstrating part selection, testing, iteration, and documentation. [^1][^2]
+**Why this matters**
+Choosing any project that will translate ideal and theoretical schematics and concepts to an actual real-world circuit, like PCBs, will force you to make careful choices regarding components' parameters. This kind of experience will stand out to recruiters, due to your justification of choosing various components. 
+
+**What to do**
+Find a project that you want to do, which can be found in various platforms like youtube or reddit (r/ElectricalEngineering) or even from professors that can recommend you basic projects to start off. Bringing your interest in starting a project to a professor can even lead you to their undergraduate research which would be signficantly better.
+
+**For example:**
+Ask a professor specialized in RF, and he recommends you doing a project where you match an antenna at 50 ohms in a different frequency of a manufactured antenna. This kind of project requires specific capacitors and inductors to match the antenna at a frequency you desire. After analyzing and calculating the required capacitors and inductors, you try to find and purchase these components and make sure the inductors are thin film and capacitors are ceramic capacitors, since they are best suited on high frequencies rather than beam-lead components. 
+[^1][^2]
 
 ## Figure 1. Component Engineer I Preparation Roadmap
 ![Component engineer roadmap](https://raw.githubusercontent.com/samuelhong2004/Process/main/Component%20Engineer%20Preparation%20RoadMap.png)
